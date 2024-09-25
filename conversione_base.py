@@ -12,7 +12,7 @@ def bto10(number, base):
         array.append(temp) #aggiunge il resto alla lista
         if temp >= base: #se il resto è maggiore o uguale alla base, il numero non ha senso
             #Esempio: 343 non può essere in base 4, perché 4 non esiste nei numeri di base 4 (che hanno solo 0 1 2 3)
-            raise Exception("La cifra " + temp + " in " + tt + " è maggiore o uguale alla base " + base)
+            raise Exception("La cifra " , temp , " in " , tt , " è maggiore o uguale alla base " , base)
         number //= 10 #divisione in integer, una divisione senza resto
     for i in range(len(array)): #per i che è l'index della lista array
         # lista: [3, 5, 1, 2, 8]
@@ -34,18 +34,18 @@ def tentob(number, base):
     for i in range(len(array)): #loop per i che è l'index della lista array
         result += array[i] * math.pow(10, i) #aggiungiamo al risultato l*elemento per la potenza tra 10 e i
     return result#ridiamo il risultato
+#Funzione che esegue le due funzioni precedenti in modo da
+# 1- convertire il numero da inBase a base 10
+# 2- convertire il numero da base 10 a outBase
+def base2base(numero, inBase, outBase):
+    to10 = bto10(numero, inBase)
+    return tentob(to10, outBase)
 
 #Codice da eseguire all'avvio
 num = int(input("Numero da convertire"))
-base1 = int(input("Base 1"))
-base2 = int(input("Base 2"))
+base1 = int(input("Base da cui convertire"))
+base2 = int(input("Base a cui convertire"))
 
-#chiamo la funzione bto10
-to10 = bto10(num, base1)
+print("Il numero", num, "( base", base1, ") diventa", base2base(num, base1, base2), "in base", base2)
 
-print("Convertiamo ", num , " da base " , base1 , " a base 10 -> " , to10)
 
-#chiamo la funzione tentob
-to7 = tentob(to10, base2)
-
-print("Convertiamo " , to10 , " da base 10 a base " , base2 , "-> " , to7)
