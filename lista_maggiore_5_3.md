@@ -5,4 +5,4 @@ Traccia:
 
 - Python: [Source](lista_maggiore_5_3.py)
 - Java: [Source](lista_maggiore_5_3.java)
-- C++: [Source](lista_maggiore_5_3.cpp)`
+- C++: [Source](lista_maggiore_5_3.cpp)
