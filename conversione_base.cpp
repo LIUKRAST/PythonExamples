@@ -1,11 +1,11 @@
 #include <iostream>
 #include <list>
-#include <math.h>
+#include <cmath>
 #include <valarray>
 #include <vector>
 using namespace std;
 
-int bTo10(int number, int base) {
+int bTo10(int number, const int base) {
     const int tt = number;
     int result = 0;
     vector<int> list;
