@@ -3,3 +3,7 @@
 - Per java uso [IDEA](https://www.jetbrains.com/idea/)
 - Per c++ usto [CLion](https://www.jetbrains.com/clion/)
 - Il prof vuole che usiamo Spyder, L
+
+# Indice
+- [Conversione Base](conversione_base.md)
+- [Lista Maggiore 5 & 3](lista_maggiore_5_3.md)
