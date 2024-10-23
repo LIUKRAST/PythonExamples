@@ -4,7 +4,7 @@
 
 Supponiamo di avere un albergo da 100 posti.
 
-Immaginiamo che io, `Luca`, vado in questo albergo e chiedo una stanza.
+Immaginiamo che io, `Luca`, di `20` anni, vado in questo albergo e chiedo una stanza.
 La reception mi chiede nome, ed età, e mi da la prima stanza libera (la 1).
 
 Questo corrisponde in java a fare
