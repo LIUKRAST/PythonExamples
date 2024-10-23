@@ -40,6 +40,7 @@ ma stiamo solo dicendo alla "Chiave" di cambiare stanza a cui puntare
 **Il primo pointer che abbiamo registrato non viene eliminato,
 fino a che il Garbage Collector non si occupa di eliminarlo**
 
+## Controllo dei valori
 
 Mettiamo ora che nell'albergo arrivi un secondo Luca, sempre di 20 anni.
 
