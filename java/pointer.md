@@ -67,13 +67,13 @@ Se nella nostra classe `Persona`, andiamo a estendere il metodo `equals`:
 
 ```java
 public class Persona {
-    private final String nome;
-    private final int età;
+	private final String nome;
+	private final int età;
     
-    public Persona(String nome, int età) {
-        this.nome = nome;
-        this.età = età;
-    }
+	public Persona(String nome, int età) {
+		this.nome = nome;
+		this.età = età;
+	}
     
 	@Override
 	public boolean equals(Object obj) {
