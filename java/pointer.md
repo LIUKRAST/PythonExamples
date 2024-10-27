@@ -11,7 +11,7 @@ Questo corrisponde in java a fare
 ```java
 new Persona("Luca", 20);
 ```
-e quindi sto registrando un nuovo `Pointer` nel mio albergo
+e quindi sto registrando un nuovo `Pointer` nel mio albergo (I pointer sono le stanze)
 
 La chiave, che mi viene data, è la `variabile`.
 La variabile non è altro che una chiave,
